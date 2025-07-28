@@ -1,0 +1,22 @@
+[project]
+name = "rag-vectorize-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.39.4",
+    "pandas>=2.0.0",
+    "fastapi[standard]>=0.115.12",
+    "uvicorn>=0.34.0",
+    "python-multipart>=0.0.20",
+    "pydantic>=2.11.1",
+    "pydantic-settings>=2.8.1",
+    "sqlalchemy>=2.0.41",
+    "sqlalchemy-utils>=0.41.2",
+    "sqlmodel>=0.0.24",
+    "pymysql>=1.1.1",
+    "chromadb>=1.0.15",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+]
