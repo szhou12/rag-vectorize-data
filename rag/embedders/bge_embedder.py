@@ -1,4 +1,5 @@
 from rag.embedders.base_embedder import BaseEmbeddingModel
+# from langchain_community.embeddings import 
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 
 class BgeEmbedding(BaseEmbeddingModel):

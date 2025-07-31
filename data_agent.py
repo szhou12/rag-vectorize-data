@@ -3,7 +3,8 @@ import os
 from contextlib import contextmanager
 from collections import defaultdict
 from typing import Optional, Literal, List, Tuple, Generator
-from langchain.schema import Document
+# from langchain.schema import Document
+from langchain_core.documents import Document
 from sqlalchemy.orm import Session
 from db_mysql import MySQLManager
 from rag.parsers import PDFParser, ExcelParser
